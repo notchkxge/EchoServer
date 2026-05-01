@@ -1,0 +1,14 @@
+/home/notchkxge/NetworkProg/Client/bin/Debug/net10.0/Client
+/home/notchkxge/NetworkProg/Client/bin/Debug/net10.0/Client.deps.json
+/home/notchkxge/NetworkProg/Client/bin/Debug/net10.0/Client.runtimeconfig.json
+/home/notchkxge/NetworkProg/Client/bin/Debug/net10.0/Client.dll
+/home/notchkxge/NetworkProg/Client/bin/Debug/net10.0/Client.pdb
+/home/notchkxge/NetworkProg/Client/obj/Debug/net10.0/Client.GeneratedMSBuildEditorConfig.editorconfig
+/home/notchkxge/NetworkProg/Client/obj/Debug/net10.0/Client.AssemblyInfoInputs.cache
+/home/notchkxge/NetworkProg/Client/obj/Debug/net10.0/Client.AssemblyInfo.cs
+/home/notchkxge/NetworkProg/Client/obj/Debug/net10.0/Client.csproj.CoreCompileInputs.cache
+/home/notchkxge/NetworkProg/Client/obj/Debug/net10.0/Client.dll
+/home/notchkxge/NetworkProg/Client/obj/Debug/net10.0/refint/Client.dll
+/home/notchkxge/NetworkProg/Client/obj/Debug/net10.0/Client.pdb
+/home/notchkxge/NetworkProg/Client/obj/Debug/net10.0/Client.genruntimeconfig.cache
+/home/notchkxge/NetworkProg/Client/obj/Debug/net10.0/ref/Client.dll
