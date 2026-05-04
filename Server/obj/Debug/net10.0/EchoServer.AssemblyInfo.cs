@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EchoServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60f497704b0bda610bcd102ffb65e19c51bec7d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ef94bca1e5bb151e8daaa2a60dba8a116721f64")]
 [assembly: System.Reflection.AssemblyProductAttribute("EchoServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EchoServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
