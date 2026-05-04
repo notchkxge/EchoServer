@@ -20,7 +20,7 @@ class Program
 
             while (true)
             {
-                Console.WriteLine("Enter message (or 'exit'):");
+                Console.WriteLine("Enter message (or 'exit' to exit):");
 
                 string? message = Console.ReadLine();
                 if (string.IsNullOrEmpty(message) || message.ToLower() == "exit")

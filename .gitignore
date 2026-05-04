@@ -1,0 +1,21 @@
+# Build outputs
+/bin/
+/obj/
+*.exe
+*.dll
+*.pdb
+
+# NuGet packages
+/packages/
+
+# Test results
+/TestResults/
+
+# Neovim swap files
+*.swp
+*.swo
+*~
+*.un~
+
+# macOS / Linux junk
+.DS_Store
