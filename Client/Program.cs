@@ -20,13 +20,9 @@ class Program
 
             while (true)
             {
-                Console.WriteLine("Enter message (or 'exit' to exit):");
-
                 string? message = Console.ReadLine();
-                if (string.IsNullOrEmpty(message) || message.ToLower() == "exit")
-                    return;
 
-                byte[] data = Encoding.ASCII.GetBytes(message);
+                byte[] data = Encoding.ASCII.GetBytes(message + "\n");
                 await stream.WriteAsync(data, 0, data.Length);
                 Console.WriteLine($"Sent: {message}");
 
@@ -41,7 +37,6 @@ class Program
             Console.WriteLine($"Error: {ex.Message}");
             Console.WriteLine(ex.ToString());
         }
-        Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
     }
 }

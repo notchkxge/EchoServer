@@ -33,7 +33,10 @@ public class ChatServer
 
     private async Task HandleClientAsync(TcpClient client)
     {
-        NetworkStream stream = client.GetStream(); //send a receive msg in bytes
+        var handler = new ChatClient(client);
+        await Task.Run(() => handler.Start());
+
+        /*NetworkStream stream = client.GetStream(); //send a receive msg in bytes
         string? data;
 
         try
@@ -42,10 +45,10 @@ public class ChatServer
             {
                 byte[] buffer = new byte[1024];
                 int byteRead = await stream.ReadAsync(buffer, 0, buffer.Length);
-                data = Encoding.UTF8.GetString(buffer, 0, byteRead);
                 Console.WriteLine($"Received: {data}");
+                data = Encoding.UTF8.GetString(buffer, 0, byteRead);
 
-                byte[] msg = System.Text.Encoding.ASCII.GetBytes(data);
+                byte[] msg = Encoding.UTF8.GetBytes(data);
                 await stream.WriteAsync(msg, 0, data.Length);
             }
         }
@@ -57,6 +60,6 @@ public class ChatServer
         {
             client.Close();
             Console.WriteLine("Client disconnected!");
-        }
+        }*/
     }
 }
